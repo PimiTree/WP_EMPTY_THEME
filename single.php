@@ -3,7 +3,7 @@ get_header();
 ?>
 
 	<main>
-		Single page
+      <?php esc_html_e('Single page', 'voron-empty-theme') ?>
 	</main>
 
 <?php

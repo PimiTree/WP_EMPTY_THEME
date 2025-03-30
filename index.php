@@ -4,7 +4,7 @@ get_header();
 ?>
 
 	<main>
-    Page main
+      <?php esc_html_e('Page main', 'voron-empty-theme') ?>
 	</main>
 
 <?php

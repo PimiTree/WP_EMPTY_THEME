@@ -4,9 +4,9 @@
 get_header();
 ?>
 
-	<main>
-		Search page
-	</main>
+  <main>
+      <?php esc_html_e('Search page', 'voron-empty-theme') ?>
+  </main>
 
 <?php
 get_footer();

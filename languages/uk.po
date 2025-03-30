@@ -1,14 +1,14 @@
 # Copyright (C) 2020 Automattic
 # This file is distributed under the GNU General Public License v2 or later.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: voron-empty-theme\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
 "POT-Creation-Date: 2025-03-30 21:57+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-03-30 22:04+0300\n"
+"Last-Translator: \n"
 "Language-Team: voronenkotg@gmail.com\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,56 +20,56 @@ msgstr ""
 
 #: 404.php:9
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Уупс! Сторінки не існує."
 
 #: archive.php:7
 msgid "Archive"
-msgstr ""
+msgstr "Архів"
 
 #: footer.php:6
 msgid "Footer"
-msgstr ""
+msgstr "Футер"
 
 #: functions.php:38
 msgid "Header navigation"
-msgstr ""
+msgstr "Навігація в шапці"
 
 #: functions.php:39
 msgid "Footer navigation"
-msgstr ""
+msgstr "Навігація в футері"
 
 #: functions_old.php:52
 msgid "Primary"
-msgstr ""
+msgstr "Головний"
 
 #: functions_old.php:125
 msgid "Sidebar"
-msgstr ""
+msgstr "Бокова панель"
 
 #: functions_old.php:127
 msgid "Add widgets here."
-msgstr ""
+msgstr "Додати віджети сюди."
 
 #: header.php:32
 msgid "Header"
-msgstr ""
+msgstr "Заголовок"
 
 #: home.php:4
 msgid "Home page"
-msgstr ""
+msgstr "Домашня сторінка"
 
 #: index.php:7
 msgid "Page main"
-msgstr ""
+msgstr "Головна сторінка"
 
 #: page.php:7
 msgid "Static page"
-msgstr ""
+msgstr "Статична сторінка"
 
 #: search.php:8
 msgid "Search page"
-msgstr ""
+msgstr "Сторінка пошуку"
 
 #: single.php:6
 msgid "Single page"
-msgstr ""
+msgstr "Самостійна сторінка"

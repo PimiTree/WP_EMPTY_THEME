@@ -4,7 +4,7 @@ get_header();
 ?>
 
 	<main>
-	  Archive
+    <?php esc_html_e('Archive', 'voron-empty-theme') ?>
 	</main>
 
 <?php

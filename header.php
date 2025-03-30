@@ -28,6 +28,14 @@
 <?php wp_body_open(); ?>
 
 	<header>
-		  Header
+
+      <?php esc_html_e('Header', 'voron-empty-theme') ?>
+
+
+      <?php
+        wp_nav_menu([
+            'theme_location' => 'header_nav'
+        ])
+      ?>
 	</header>
 

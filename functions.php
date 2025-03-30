@@ -28,11 +28,19 @@ remove_action( 'wp_head', 'rest_output_link_wp_head', 10 );
 
 function voron_empty_theme_setup(): void {
 
-	load_theme_textdomain( 'voron-empty-theme', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'voron-empty-theme', get_template_directory() . '/languages');
 
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'post-thumbnails' );
-	add_theme_support('html5',
+
+    register_nav_menus(
+        array(
+            'header_nav' => esc_html__( 'Header navigation', 'voron-empty-theme' ),
+            'footer_nav' => esc_html__( 'Footer navigation', 'voron-empty-theme' ),
+        )
+    );
+
+    add_theme_support('html5',
 		array(
 			'search-form',
 			'comment-form',
@@ -44,8 +52,18 @@ function voron_empty_theme_setup(): void {
 		)
 	);
 
+    add_theme_support(
+        'custom-background',
+        apply_filters(
+            'voron_empty_theme_custom_background_args',
+            array(
+                'default-color' => 'ffffff',
+                'default-image' => '',
+            )
+        )
+    );
 }
-add_action( 'after_setup_theme', 'voron_empty_theme_setup' );
+add_action( 'after_setup_theme', 'voron_empty_theme_setup', 0);
 
 
 /**
