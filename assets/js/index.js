@@ -1,0 +1,1 @@
+console.log('Here we are! I am index js');

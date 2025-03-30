@@ -1,0 +1,9 @@
+
+:root {
+  --palette-1: #111111;
+  --palette-2: #fff;
+}
+
+:root {
+  --main-text-color: var(--palette-1);
+}

@@ -1,0 +1,22 @@
+/*!
+Theme Name: Voron Empty Theme
+Theme URI: none
+Author: Voronenko Evhen
+Author URI: none
+Description: Description
+Version: 1.0.0
+Tested up to: 6.7.2
+Requires PHP: 8.2
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: voron-empty-theme
+Tags:
+*/
+
+
+/*
+* Root and Color palette
+*/
+
+@import url('common/root.css');
+@import url('common/default.css');
